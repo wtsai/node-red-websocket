@@ -1,0 +1,16 @@
+{
+  "name": "node-red-websocket",
+  "version": "0.0.1",
+  "description": "To save the connections of the clients",
+  "author": "Wesley Tsai<wesleyboy42@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "0.8.1"
+  },
+  "node-red": {
+    "nodes":{
+      "wsContext in": "wsRed/websocket.js",
+      "wsContext out": "wsRed/websocket.js"
+    }
+  }
+}
